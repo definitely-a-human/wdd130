@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Poppins&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -29,6 +31,9 @@ main section{
 
 body{
     background-color: white;
+    font-family: 'Poppins', 'Segoe UI', Verdana, sans-serif;
+    margin: 0; 
+    padding: 0;
 }
 
 header{
@@ -61,10 +66,12 @@ nav a:hover{
 
 #background{
     background-color: #F98824;
+    padding: 75px;
 }
 
 .msg{
     background-color: #7CD4D4;
+    line-height: 1.5em;
 }
 
 footer{
@@ -73,6 +80,7 @@ footer{
 
 h2{
     color: #487367;
+    margin: 0;
 }
 
 .msg h2, p{
@@ -106,3 +114,60 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }    
+
+header{
+    font-family: 'Cabin Sketch', 'Trebuchet MS', Arial, sans-serif;
+}
+
+#hero-msg h1{
+    font-family: 'Cabin Sketch', 'Trebuchet MS', Arial, sans-serif;
+}
+
+.msg h2{
+    font-family: 'Cabin Sketch', 'Trebuchet MS', Arial, sans-serif;
+}
+
+.home-title{
+    font-size: 2em;
+}
+
+.book, .join{
+    font-size: 18px;
+}
+
+.msg p{
+    font-size: .8em;
+}
+
+nav{
+    font-size: 30px;
+}
+
+nav a{
+    padding-right: 125px;
+    padding-left: 125px;
+}
+
+.logo{
+    width: 25%;
+    height: 25%;
+}
+
+.rivers-card{
+    padding: 75px;
+}
+
+.camping-card{
+    padding: 75px;
+}
+
+.rapids-card{
+    padding: 75px;
+}
+
+.mountains{
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
