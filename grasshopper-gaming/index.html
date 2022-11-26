@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grasshopper Gaming | Home</title>
     <link type="text/css" rel="stylesheet" href="styles/styles.css">
-    <title>Document</title>
+    <title>Grasshopper Gaming Homepage</title>
 </head>
 <body>
     
-    <div id="content">
+    <div id="home-content">
         
         
-        <div id="page-wrapper">
+        <div id="home-page-wrapper">
          
         
             <header>
                 <a id="logo_link" href="index.html">
-                    <img class="logo" src="images/Main Logo Resized.png" alt="Grasshopper Gaming Logo">
+                    <img class="logo" id="main_logo" src="images/Main Logo Resized.png" alt="Grasshopper Gaming Logo">
                 </a>
                 <nav>
                     <a href="index.html">Home</a>
@@ -28,17 +28,66 @@
                 </nav>
             </header>
             
+        
+
+            <div id="news_wrapper" class="content_wrapper">    
+                <div id="news_headline" class="headline">
+                    Trending News
+                </div>
+
+
+                <div id="news_links">
+                    <section class="news_story">
+                        <a class="headline_link" href="https://www.ign.com/articles/the-witcher-3-cd-projekt-red-shares-everything-new-in-next-gen-version">Everything You Need To Know About Next Gen Release of The Witcher 3</a>
+                            <p class="news_paragraph">
+                                CD Projekt Red has finally shared gameplay footage of The Witcher 3: Wild Hunt's PlayStation 5 and Xbox Series versions, also revealing every upgrade coming to the next-gen version of the 2015 RPG.
+                            </p>
+                    </section>
+
+                    <section class="news_story">
+                        <a class="headline_link" href="https://www.pcgamer.com/call-of-duty-warzone-2-review/">Warzone 2.0 Worth the Minor Bugs?</a>
+                            <p class="news_paragraph">
+                                Despite being bogged down by technical issues and an agonizingly clunky user interface, Call of Duty: Warzone 2 is a massive step up over its predecessor.
+                            </p>
+                    </section>
+
+                    <section class="news_story">
+                        <a class="headline_link" href="https://www.ign.com/articles/the-witcher-3-cd-projekt-red-shares-everything-new-in-next-gen-version">The Odd Legal Battle Over Multiple Game of the Year </a>
+                            <p class="news_paragraph">
+                                The creators of perhaps the best PC game ever(opens in new tab) have been cut out of the company(opens in new tab) they co-founded, Disco Elysium studio ZA/UM, and are now fighting for it in the courts.
+                            </p>
+                    </section>        
+
+                <div id="newslewtter_signup">
+                    <h3 id="newsletter_header_font">Join Our Newsletter</h3>
+                    <p id="newsletter_para">Sign Up for the Grasshopper Gaming Newsletter today for email updates to the biggest releases and hottest videogame news so you don't miss a thing</p>
+                    <form action="/my-handling-form-page" method="post">
+                        <label for="mail">E-mail: </label>
+                        <input type="email" id="mail" name="user_email" />
+
+                        <button type="submit">Sign Up </button>
+                    </form>
+                    <img class="logo" id="newsletter_logo" src="images/Newsletter Logo Resized.png" alt="Grasshopper Gaming Newsletter Logo">
+            </div>
+
+            <div id="media_wrapper" class="content_wrapper">
+                <div id="media_headline" class="headline">
+                    Must See Media
+                </div>
+                <div id="video_headline" class="headline">Hogwarts Legacy Gameplay</div>
+                <section id="video">
+                    <iframe width="885" height="498" src="https://www.youtube.com/embed/ecgrvh4kQRU" title="Hogwarts Legacy - Gameplay Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+            </div>
 
 
 
-
-
-            
 
             <footer>
                 <p>Grasshopper Gaming &copy; 2022 - Michael Kaliski</p>
                 <p><a href="site-plan.html">Site Plan</a></p>
                 <p><a href="contactus.html">Contact Us</a></p>
+                
                 <div class="social">
                     <a href="https://facebook.com" target="_blank">
                         <img src="images/facebook.png" alt="fb icon">
