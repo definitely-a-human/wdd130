@@ -5,106 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grasshopper Gaming | Game Deals</title>
-    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+    <link type="text/css" rel="stylesheet" href="styles/game-deals-styles.css">
     <title>Grasshopper Gaming Deals Page</title>
 </head>
-<body>
+<div id="content-wrapper">
+    <div id="logo-box"><div id="background-bubble"><img id="main-logo" class="logo" src="images/Main Logo Resized.png" alt="Grasshopper Gaming Logo"></div></div>
     
-    <div id="deals-content">
-        
-        
-        <div id="deals-page-wrapper">
-         
-        
-            <header>
-                <a id="logo_link" href="index.html">
-                    <img class="logo" src="images/Main Logo Resized.png" alt="Grasshopper Gaming Logo">
-                </a>
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="release-calendar.html">Release Calendar</a>
-                    <a href="game-deals.html">Game Deals</a>
-                    <a href="contactus.html">Contact Us</a>
-                </nav>
-            </header>
-            
-            
-
-            <div class="deals_headline"><h1 class="deals_headline">Game Deals</h1></div>
-
-            <div id="steam_sale_container">
-
-                <img id="steam_headline_logo" src="images/steam.png" alt="Steam Logo">
-
-                <h2 id="steam_deals_headline" class="store_headline">Steam Deals</h2>
-
-                <div class="store_links">
-                    <h3 class="deal_title">Autumn Sale</h3><br><a id="steam_sale_link" href="https://store.steampowered.com/specials/"><img class="deal_logo" id="autumn_sale_logo" src="images/autumn sale.png" alt="Autumn Sale Logo"></a>
-                </div>
-
-            </div>
-
-
-            <div id="ps_sale_container">
-
-                <img id="ps_store_deal_logo" src="images/PlayStation_Store.png" alt="PS Store Logo">
-
-                <h2 id="ps_deals_headline" class="store_headline">PS Store Deals</h2>
-
-                <div class="store_links">
-                    <h3 class="deal_title">Black Friday Sale</h3><br><a id="ps_sale_link" href="https://store.playstation.com/en-us/pages/deals"><img class="deal_logo" id="ps_sale_logo" src="images/black friday.png" alt="Black Friday PS Sale Logo"></a>
-                </div>
-            </div>
-
-
-            <div id="xbox_sale_container">
-
-                <img id="xbox_store_deal_logo" src="images/xbox store.png" alt="Xbox Store Logo">
-
-                <h2 id="xbox_deals_headline" class="store_headline">Xbox Store Deals</h2>
-
-                <div class="store_links">
-                    <h3 class="deal_title">Xbox Cyber Monday Sale</h3><br><a id="xbox_sale_link" href="https://www.xbox.com/en-US/promotions/sales/cyber-monday"><img class="deal_logo" id="xbox_sale_logo" src="images/cyber monday.png" alt="Xbox Cyber Monday Logo"></a>
-                </div>
-            </div>
-
-
-            <div id="switch_sale_container">
-
-                <img id="switch_store_deal_logo" src="images/eshop.png" alt="Nintendo eShop Logo">
-
-                <h2 id="switch_deals_headline" class="store_headline">Nintendo eShop Deals</h2>
-
-                <div class="store_links">
-                    <h3 class="deal_title">Xbox Cyber Monday Sale</h3><br><a id="switch_sale_link" href="https://www.nintendo.com/store/games/deals/"><img class="deal_logo" id="switch_sale_logo" src="images/nin cyber deals.png" alt="Nintendo Cyber Monday Logo"></a>
-                </div>
-            </div>
-
-
-            
-
-            <footer>
-                <p>Grasshopper Gaming &copy; 2022 - Michael Kaliski</p>
-                <p><a href="site-plan.html">Site Plan</a></p>
-                <p><a href="contactus.html">Contact Us</a></p>
-                <div class="social">
-                    <a href="https://facebook.com" target="_blank">
-                        <img src="images/facebook.png" alt="fb icon">
-                    </a>
-                    <a href="https://twitter.com" target="_blank">
-                        <img src="images/twitter.png" alt="twitter icon">
-                    </a>
-                    <a href="https://instagram.com" target="_blank">
-                        <img src="images/instagram.png" alt="instagram icon">
-                    </a>
-                </div>
-            </footer>
-
-
-
-
-
+    <div id="nav-name-space"><h1 id="name-space-text" >Grasshopper Gaming</h1></div>
+    <div id="home-button" class="button-box"><a id="home-button-text" class="button-text" href="index.html">Home</a></div>
+    <div id="calendar-button" class="button-box"><a id="calendar-button-text" class="button-text" href="release-calendar.html">Release Calendar</a></div>
+    <div id="deals-button" class="button-box"><a id="calendar-button-text" class="button-text" href="game-deals.html">Game Deals</a></div>
+    <div id="contact-button" class="button-box"><a id="contact-button-text" class="button-text" href="contactus.html">Contact Us</a></div>
+    
+    <div class="deals_headline"><h1 class="deals_headline_text">Game Deals</h1></div>
+    <div id="steam_sale_container">
+        <div id="steam-flex">
+            <img id="steam_headline_logo" class="store-logo" src="images/steam.png" alt="Steam Logo">
+            <!--<h2 id="steam_deals_headline" class="store_headline">Steam Deals</h2>-->
         </div>
+        <h3 class="deal_title">Autumn Sale</h3>
+        <a id="steam_sale_link" class="deal-logo" href="https://store.steampowered.com/specials/"><img class="deal_logo" id="autumn_sale_logo" src="images/autumn sale.png" alt="Autumn Sale Logo"></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 1 - <span class="price">- $7.99</span></p></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 2 - <span class="price">- $23.99</span></p></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 3 - <span class="price">- $15.99</span></p></a>
     </div>
-</body>
-</html>
+
+    <div id="ps_sale_container">
+        <div id="ps-flex">
+            <img id="ps_store_deal_logo" class="store-logo" src="images/PlayStation_Store.png" alt="PS Store Logo">
+            <!--<h2 id="ps_deals_headline" class="store_headline">PS Store Deals</h2>-->
+        </div>
+        <h3 class="deal_title">Black Friday Sale</h3>
+        <a id="ps_sale_link" class="deal-logo" href="https://store.playstation.com/en-us/pages/deals"><img class="deal_logo" id="ps_sale_logo" src="images/black friday.png" alt="Black Friday PS Sale Logo"></a>      
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 1 - <span class="price">- $7.99</span></p></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 2 - <span class="price">- $23.99</span></p></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 3 - <span class="price">- $15.99</span></p></a>
+    </div>
+
+    <div id="xbox_sale_container">
+        <div id="xbox-flex">
+            <img id="xbox_store_deal_logo" class="store-logo" src="images/xbox store.png" alt="Xbox Store Logo">
+            <!--<h2 id="xbox_deals_headline" class="store_headline">Xbox Store Deals</h2>-->
+        </div>
+        <h3 class="deal_title">Xbox Cyber Monday Sale</h3>
+        <a id="xbox_sale_link" class="deal-logo" href="https://www.xbox.com/en-US/promotions/sales/"><img class="deal_logo" id="xbox_sale_logo" src="images/cyber monday.png" alt="Xbox Cyber Monday Logo"></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 1 - <span class="price">- $7.99</span></p></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 2 - <span class="price">- $23.99</span></p></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 3 - <span class="price">- $15.99</span></p></a>
+    </div>
+
+    <div id="switch_sale_container">
+        <div id="nintendo-flex">
+            <img id="switch_store_deal_logo" class="store-logo" src="images/eshop.png" alt="Nintendo eShop Logo">
+            <!--<h2 id="switch_deals_headline" class="store_headline">Nintendo eShop Deals</h2>-->
+        </div>
+        <h3 class="deal_title">Nintendo Cyber Deals</h3>
+        <a id="switch_sale_link" class="deal-logo" href="https://www.nintendo.com/store/games/deals/"><img class="deal_logo" id="switch_sale_logo" src="images/nin cyber deals.png" alt="Nintendo Cyber Monday Logo"></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 1 - <span class="price">- $7.99</span></p></a>
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 2 - <span class="price">- $23.99</span></p></a> 
+        <a class="sale-link" href="#"><p class="sale-link-text">Game Title Store Link 3 - <span class="price">- $15.99</span></p></a>
+           
+    </div>
+
+    <div id="footer" class="content-box">
+        <p id="copyright-text" class="footer-text">Grasshopper Gaming &copy; 2022 - Michael Kaliski</p>
+            <a id="footer-plan-link-text" class="footer-link-text" href="site-plan.html">Site Plan</a>
+            <a id="footer-contact-link-text" class="footer-link-text" href="contactus.html">Contact Us</a>
+            
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+    </div>
+</div>

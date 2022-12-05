@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play&family=Open+Sans&family=Permanent+Marker&display=swap');
+
+
+\cfd
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+#content-wrapper {
+    display: grid; 
+    background-color: #000000;
+    grid-template-rows: 300px .25fr .25fr .25fr .25fr 1fr 1fr .5fr .5fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 75px 75px 75px 75px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 75px 75px 75px 75px;
+   
+    gap: 5px;
+   
+   
+}
+
+.button-text {
+    text-decoration: none;
+    font-family: 'Cairo Play', Tahoma, Geneva, Verdana, sans-serif;
+    color: #da021f;
+    font-size: 1.5em;
+    padding: 1em;
+    
+    
+}
+.button-text:hover {
+    background-color: #85ff4d;
+    border-radius: .5em;
+    padding: 1em;
+    
+    
+}   
+#home-button {
+
+   background-color: #b7b7b7; 
+   grid-row: 2/3;
+   grid-column: 1/6;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+
+   
+   
+}
+
+#logo-box{
+
+    background-color: #000000;
+    grid-row: 1/2;
+    grid-column: 1/5;
+
+}
+#background-bubble{
+    background-color: #da021f;
+    border-radius: 50%;
+    grid-row: 1/2;
+    grid-column: 1/5;
+    
+
+}
+#logo {
+ 
+   grid-row: 1/2;
+   grid-column: 1/5;
+
+   
+}
+.button-box {
+    border-radius: 1.5em;
+}
+#nav-name-space {
+
+    color: #50e00d;
+    grid-row: 1/2;
+    grid-column: 5/19;
+    text-align: center;
+    
+    
+}
+#name-space-text {
+     display: inline-block;
+     font-size: 6rem;
+     font-family: 'Permanent Marker', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+#calendar-button {
+
+    background-color: #b7b7b7; 
+    grid-row-start: 2;
+    grid-column: 6/10;
+ 
+    grid-row-end: 3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#deals-button {
+ 
+    background-color: #b7b7b7; 
+    grid-row-start: 2;
+    grid-column: 10/14;
+ 
+    grid-row-end: 3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#contact-button {
+ 
+    background-color: #b7b7b7; 
+    grid-row-start: 2;
+    grid-column-start: 14;
+ 
+    grid-row-end: 3;
+    grid-column-end: 19;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.deals_headline {
+    background-color: #50e00d; 
+    grid-row-start: 3;
+    grid-column-start: 7;
+
+    grid-row-end: 5;
+    grid-column-end: 13;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em ;
+    font-family: 'Permanent Marker', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+#steam_sale_container {
+
+    background-color: #b7b7b7; 
+    grid-row: 5/8;
+    grid-column: 3/17;
+    display: inline-block;
+    border-radius: 1em;
+
+}
+#steam-flex {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ps_sale_container {
+    background-color: #b7b7b7; 
+    grid-row: 8/11;
+    grid-column: 3/10;
+    display: inline-block;
+    border-radius: 1em;
+}
+#ps-flex {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#xbox_sale_container {
+    background-color: #b7b7b7; 
+    grid-row: 8/11;
+    grid-column: 10/17;
+    display: inline-block;
+    border-radius: 1em;
+}
+#xbox-flex {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nintendo-flex {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#switch_sale_container {
+    background-color: #b7b7b7; 
+    grid-row: 11/13;
+    grid-column: 3/17;
+    display: inline-block;
+    border-radius: 1em;
+}
+.deal_title {
+    text-align: center;
+    padding-top: 1em;
+    font-family: 'Permanent Marker', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    background-color:#da021f;
+    margin-left: 2em;
+    margin-right: 2em;
+    color:#50e00d;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 2em;
+}
+.store-logo {
+    padding: 3em;
+    
+}
+.deal-logo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+.sale-link {
+    display: flex;
+    text-align: center;
+    padding-bottom: 1em;
+    margin-left: 3em;
+    margin-top:2em;
+    margin-bottom: 2em;
+}
+
+.sale-link:hover {
+    background-color: #85ff4d;
+    border-radius: .5em;
+    
+}
+.sale-link-text {
+    color: #da021f;
+    font-family: 'Cairo Play', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+
+
+
+#footer {
+
+    background-color: #da021f; 
+    grid-row-start: 13;
+    grid-column-start: 1;
+ 
+    grid-row-end: 14;
+    grid-column-end: 19;
+     
+     border-radius: 2em;
+     
+     padding: 25px 50px;
+     
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    
+     
+ }
+ #footer .social img {
+     padding-top: 15px;
+ }
+ 
+ .footer-link-text {
+     color: #85ff4d;
+     font-family: 'Cairo Play', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 1.2em;
+ }
+ #copyright-text {
+     
+     color: white;
+     text-decoration: none;
+     font-size: 1.2em;
+     justify-self: left;
+     font-family: 'Cairo Play', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+ 
+ .footer-link-text:hover {
+     background-color: white;
+     border-radius: .5em;
+     padding: 1em;
+     color: #da021f;
+ }
+ 
